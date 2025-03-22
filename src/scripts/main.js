@@ -29,5 +29,5 @@ function getEmployees(list) {
   return arr;
 }
 
-getEmployees(document.querySelector('ul'));
 sortList(document.querySelector('ul'));
+getEmployees(document.querySelector('ul'));
